@@ -11,7 +11,8 @@ import argparse
 def extract_sdf(i, o, n):
 	'''
 	Extract a subset of mols from a long SDF file.
-	extract_sdf <input file name> <output file name> <number>
+    Usage: extract_sdf("input file name", "output file name", "number")
+    Note: It creates an output file in the current folder and does not return a value.
 	'''
 	count = 0
 
