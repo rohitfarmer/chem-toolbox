@@ -32,7 +32,7 @@ def extract_sdf(i, o, n):
 
 if __name__ == '__main__':
 	# Argument parser.
-	parser = argparse.ArgumentParser()
+	parser = argparse.ArgumentParser(description="Extract a subset of mols from a long SDF file.")
 	parser.add_argument("i", help="Input file name.")
 	parser.add_argument("o", help="Output file name.")
 	parser.add_argument("n", help="Number of molecules to return.", type=int)
