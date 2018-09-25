@@ -38,5 +38,6 @@ if __name__ == '__main__':
 	parser.add_argument("n", help="Number of molecules to return.", type=int)
 	args = parser.parse_args()
 
+    # Call the extract sdf function.
 	extract_sdf(args.i, args.o, args.n)
 
